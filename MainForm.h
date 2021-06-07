@@ -1,8 +1,8 @@
 #pragma once
 #include "Forms/lab1.h"
 #include "Forms/lab4.h"
-#include "Forms/lab2.h"/*
-#include "Forms/lab3.h"*/
+#include "Forms/lab2.h"
+#include "Forms/lab3.h"
 
 namespace Coursach2 {
 
@@ -318,6 +318,7 @@ namespace Coursach2 {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->IsMdiContainer = true;
 			this->Name = L"MainForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MainForm";
 			this->welcomePanel->ResumeLayout(false);
 			this->welcomePanel->PerformLayout();

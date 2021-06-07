@@ -130,6 +130,7 @@
     <ClCompile Include="Forms\lab4.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="Lab2\lab2_2_func.cpp" />
+    <ClCompile Include="Lab3\lab2_3_func.cpp" />
     <ClCompile Include="MainForm.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +150,8 @@
     <ClInclude Include="Lab1\lab2_1_data.h" />
     <ClInclude Include="Lab2\lab2_2_data.h" />
     <ClInclude Include="Lab2\lab2_2_func.h" />
+    <ClInclude Include="Lab3\lab2_3_data.h" />
+    <ClInclude Include="Lab3\lab2_3_func.h" />
     <ClInclude Include="MainForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -161,6 +164,10 @@
     <EmbeddedResource Include="Forms\lab2.resx">
       <DependentUpon>Forms\lab2.h</DependentUpon>
       <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Coursach2.lab2.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\lab3.resx">
+      <DependentUpon>Forms\lab3.h</DependentUpon>
+      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Coursach2.lab3.resources</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\lab4.resx">
       <DependentUpon>Forms\lab4.h</DependentUpon>

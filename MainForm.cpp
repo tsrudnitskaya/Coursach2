@@ -38,7 +38,11 @@ System::Void Coursach2::MainForm::btnLab2_Click(System::Object^ sender, System::
 
 System::Void Coursach2::MainForm::btnLab3_Click(System::Object^ sender, System::EventArgs^ e)
 {
-	return System::Void();
+	lab3^ form = gcnew lab3();
+	form->MdiParent = this;
+	form->Dock = System::Windows::Forms::DockStyle::Fill;
+	form->Show();
+	welcomeHide();
 }
 
 System::Void Coursach2::MainForm::btnLab4_Click(System::Object^ sender, System::EventArgs^ e)
