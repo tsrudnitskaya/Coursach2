@@ -84,6 +84,10 @@
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>Main</EntryPointSymbol>
     </Link>
+    <EmbeddedResource>
+      <LogicalName>
+      </LogicalName>
+    </EmbeddedResource>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -121,15 +125,30 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Forms\lab1.cpp" />
+    <ClCompile Include="Forms\lab2.cpp" />
+    <ClCompile Include="Forms\lab3.cpp" />
+    <ClCompile Include="Forms\lab4.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="Lab2\lab2_2_func.cpp" />
     <ClCompile Include="MainForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Forms\lab1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Forms\lab2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\lab3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\lab4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="functions.h" />
     <ClInclude Include="Lab1\lab2_1_data.h" />
+    <ClInclude Include="Lab2\lab2_2_data.h" />
+    <ClInclude Include="Lab2\lab2_2_func.h" />
     <ClInclude Include="MainForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -138,6 +157,14 @@
     <EmbeddedResource Include="Forms\lab1.resx">
       <DependentUpon>Forms\lab1.h</DependentUpon>
       <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Coursach2.lab1.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\lab2.resx">
+      <DependentUpon>Forms\lab2.h</DependentUpon>
+      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Coursach2.lab2.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\lab4.resx">
+      <DependentUpon>Forms\lab4.h</DependentUpon>
+      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Coursach2.lab4.resources</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.h</DependentUpon>

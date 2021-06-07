@@ -1,8 +1,8 @@
 #pragma once
-#include "Forms/lab1.h"/*
-#include "Forms/lab2.h"
-#include "Forms/lab3.h"
-#include "Forms/lab4.h"*/
+#include "Forms/lab1.h"
+#include "Forms/lab4.h"
+#include "Forms/lab2.h"/*
+#include "Forms/lab3.h"*/
 
 namespace Coursach2 {
 
